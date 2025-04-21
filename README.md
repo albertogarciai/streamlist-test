@@ -17,7 +17,9 @@ pipreqs
 
 # 5. Dependencias
 pip install folium
-pip intall streamlit_folium
+pip install streamlit_folium
+pip install plotly
+pip install scikit-learn
 
 NOTAS
 - Para parar el servidor: "crtl + C"
