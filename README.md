@@ -1,12 +1,23 @@
 # streamlist-test
 
+# 1. Crear entorno
 conda create -y -n streamlit python=3.11
-
 conda activate streamlit
 
-pip install streamlit
-
+# 2. Crear archivo app
 touch app.py
 
+# 3. Streamlit
+pip install streamlit
 streamlit run app.py
 
+# 4. Generar archivo de requirements.txt
+pip install pipreqs
+pipreqs
+
+NOTAS
+- Para parar el servidor: "crtl + C"
+
+EXTRA
+- *args: numero variable argumentos
+- **kwargs: numero variable keyword arguments
