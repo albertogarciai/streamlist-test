@@ -17,7 +17,15 @@ def add_marker_to_map (fila):
     color = "black"
     if fila["barrio"] == "Centro":
         color = "red"
-
+    elif fila["barrio"] == "Este":
+        color = "blue"
+    elif fila["barrio"] == "Sur":
+        color = "green"
+    elif fila["barrio"] == "Norte":
+        color = "orange"
+    elif fila["barrio"] == "Oeste":
+        color = "purple"
+    
     icon = folium.Icon(icon="house", prefix="fa", color=color)
     
     marker = folium.Marker(
