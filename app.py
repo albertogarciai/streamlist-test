@@ -1,9 +1,14 @@
 import streamlit as st
 import pandas as pd
 
-st.title("🏠 Prediccion de precios de casas")
+st.set_page_config(
+    page_title="Prediccion de precios",
+    page_icon="🏠",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 
-st.write("Tasador")
+st.subheader("🏠 Prediccion de precios de casas")
 
 tab1, tab2 = st.tabs(["Resumen", "Contacto"])
 

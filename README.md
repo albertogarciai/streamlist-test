@@ -15,6 +15,10 @@ streamlit run app.py
 pip install pipreqs
 pipreqs
 
+# 5. Dependencias
+pip install folium
+pip intall streamlit_folium
+
 NOTAS
 - Para parar el servidor: "crtl + C"
 
